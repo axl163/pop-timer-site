@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Support · Pop Timer</title>
+  <meta name="description" content="Contact support for Pop Timer for Catchers.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <a class="brand" href="index.html">Pop Timer</a>
+      <nav>
+        <a href="index.html">About</a>
+        <a href="support.html" aria-current="page">Support</a>
+      </nav>
+    </header>
+
+    <section>
+      <h1>Support</h1>
+      <p class="lede">Questions about importing a video, marks, times, or export. Include your iPhone model and what you were doing.</p>
+      <div class="form-frame" id="form-slot" hidden></div>
+      <script>
+        const formUrl = "";
+        if (formUrl) {
+          const slot = document.getElementById("form-slot");
+          const frame = document.createElement("iframe");
+          frame.title = "Pop Timer support form";
+          frame.src = formUrl;
+          slot.hidden = false;
+          slot.appendChild(frame);
+        }
+      </script>
+    </section>
+
+    <footer>© 2026 Allen Liu</footer>
+  </div>
+</body>
+</html>
