@@ -106,6 +106,7 @@ li + li { margin-top: 6px; }
 
 .form-frame {
   margin-top: 8px;
+  background: #fff;
 }
 
 .form-frame iframe {
